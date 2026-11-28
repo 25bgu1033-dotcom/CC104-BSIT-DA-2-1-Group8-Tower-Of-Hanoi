@@ -57,3 +57,16 @@ h1 {
   width: 100%;
   font-weight: bold;
 }
+
+/* day 2 - clicking */
+.tower {
+  cursor: pointer;
+}
+
+.tower.selected .peg {
+  background: gold;
+}
+
+#message {
+  color: #555;
+}
