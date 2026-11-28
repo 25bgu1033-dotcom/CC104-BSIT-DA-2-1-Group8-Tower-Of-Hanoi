@@ -9,19 +9,21 @@
 <body>
   <div class="container text-center">
     <h1>Tower of Hanoi</h1>
+    <p>Moves: <span id="move-count">0</span></p>
+    <p id="message">Click a tower, then click where you want to move its top disk.</p>
 
     <div class="row towers">
-      <div class="col-4 tower">
+      <div class="col-4 tower" data-tower="A">
         <div class="peg"></div>
         <div class="disks" id="disks-A"></div>
         <p class="tower-label">A</p>
       </div>
-      <div class="col-4 tower">
+      <div class="col-4 tower" data-tower="B">
         <div class="peg"></div>
         <div class="disks" id="disks-B"></div>
         <p class="tower-label">B</p>
       </div>
-      <div class="col-4 tower">
+      <div class="col-4 tower" data-tower="C">
         <div class="peg"></div>
         <div class="disks" id="disks-C"></div>
         <p class="tower-label">C</p>
